@@ -1,0 +1,546 @@
+html, body {
+  font-size: 16px;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  width: 1232px;
+  display: block;
+  vertical-align: baseline;
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+       padding-top: 0;
+       height: 4rem;
+       width: 65%;
+    }
+
+header.mobile {
+  display: block;
+  width: 100%;
+}
+
+header .desktop {
+  display: none;
+}
+
+header .nav {
+  padding: .5rem 0;
+}
+
+header .mobile ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+header .mobile li {
+  padding: 0;
+}
+
+header .mobile img {
+  padding: .1875rem .5rem;
+  background-color: #9dc20b;
+  line-height: 1.6;
+  color: white;
+}
+}
+
+div {
+  display: block;
+}
+
+/** header Section **/
+
+header {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  height: 4rem;
+  align-items: center;
+  width: 65%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1.8;
+}
+
+.logo img {
+  height: 3rem;
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+
+header .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 0rem;
+}
+
+header #gray {
+  opacity: .5;
+  font-weight: 400;
+}
+
+header .title:hover {
+  font-size: 2.5rem;
+  transition: 500ms;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  width: auto;
+  margin: 0;
+  align-items: center;
+}
+
+.nav ul li {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+header a:hover {
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.nav.mobile {
+  display: flex;
+  padding: 2rem;
+}
+
+/** Main Banner Section **/
+
+@media only screen and (max-width 1024px) {
+  .main {
+    display: block;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .main-banner {
+    padding: 0;
+    margin: 0;
+    width: 64rem;
+    background-color: lightgray;
+  }
+
+  .banner img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .banner-content h1, .banner-content h4{
+    line-height: 2rem;
+    padding: 1.5rem;
+  }
+}
+
+.main {
+  display: block;
+  margin: 0 auto 4.875rem auto;
+  padding-top: 0rem;
+  position: relative;
+}
+
+.main-banner {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 77rem;
+  height: auto;
+  background-color: lightgray;
+}
+
+.banner img {
+  width: 40.75rem;
+  margin: 2rem;
+}
+
+.banner {
+  display: block;
+  margin : 2rem, 1.5rem;
+  top: 2rem;
+}
+
+.banner-content {
+  display: block;
+  align-items: center;
+  max-width: 30.75rem;
+  margin: 2rem 1rem;
+  padding-top: 5rem;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+.banner-content h4 {
+  font-size:1.7rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.start a {
+  text-decoration: none;
+  color: white;
+  margin-top: .6rem;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+}
+
+.banner.start a:hover {
+  font-size: 2rem;
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+}
+
+.banner.start {
+  display: block;
+  height: 3rem;
+  margin-top: 4rem;
+  background-color: black;
+  border: none;
+  text-align: center;
+  width: 20.75rem;
+}
+
+.banner.start h6 {
+  margin-top: 1rem;
+}
+
+.start {
+  margin-top: 2rem;
+}
+
+/** Main Information Section **/
+
+@media only screen and (max-width 1024px) {
+  .activities, .info img {
+    display: block;
+    flex-direction: column;
+    padding: 1rem;
+    width: auto;
+  }
+}
+
+.info-main {
+  display: flex;
+  max-width: 77rem;
+  flex-wrap: nowrap;
+  padding-bottom: 4rem;
+
+}
+
+.information {
+  display: block;
+  max-width: 46.2rem;
+  margin: 2rem 0 0 1.5rem;
+}
+
+.information img {
+  width: 43.2rem;
+  padding-bottom: 2rem;
+}
+
+.practice h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0rem;
+}
+
+.practice {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 40.2rem;
+  padding: 0;
+}
+
+.practice h5 {
+  margin-top: 1.5rem;
+}
+
+.activities {
+  display: flex;
+  max-width: 30.8rem;
+  align-items: center;
+  padding: 1rem 0 0rem 1rem;
+}
+
+.info img {
+  max-width: 10.78rem;
+  height: auto;
+  margin: 1rem 0 1rem 0;
+}
+
+.info {
+  display: flex;
+  padding: 0rem 0 0 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 30.2rem;
+}
+
+.info-content {
+  display: block;
+  margin: 0rem;
+  max-width: 19.2rem;
+  padding-left: 0rem;
+}
+
+.info-content h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.info-content h6 {
+  display: block;
+  font-size: 1rem;
+  padding-left: 0rem;
+}
+
+.info-content a {
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  padding-left: 0rem;
+}
+
+.info-content a:hover {
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: 200ms;
+}
+
+.info.guest-lecture {
+  background-color: lightgrey;
+}
+
+/** Start Learning Section **/
+
+@media only screen and (max-width 1024px) {
+  .start-learning {
+    display: block;
+    margin: 1rem;
+  }
+
+  .courses, .course-item {
+    margin-top: .5rem;
+  }
+
+  .courses h1 {
+    margin-left: 1rem;
+  }
+}
+
+.start-learning {
+  display: flex;
+  max-width: 77rem;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  padding-top: 2rem;
+}
+
+.courses {
+  margin: 2rem 4.5rem;
+  display: flex;
+  align-items: center;
+  max-width: 68rem;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  padding-top: 0rem;
+}
+
+.courses img {
+  max-width: 18rem;
+  height: auto;
+
+}
+
+.course-item, h6{
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  max-width: 18rem;
+  align-items: center;
+  line-height: 1.5rem;
+}
+
+.course-item h1 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.course-item h6 {
+  padding-left: 0;
+  font-size: 0.93rem;
+}
+
+.course-item {
+  display: block;
+  height: 20rem;
+  text-align: left;
+  background-color: white;
+}
+
+#learn {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 0rem;
+  margin: auto;
+}
+
+.course-item h2 {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+/** Thesis Exhibit Section **/
+
+@media only screen and (max-width 1024px) {
+  .exhibit, video {
+    max-width: 100%;
+    display: none;
+    padding: 1rem 0 1.5rem 0;
+  }
+}
+
+.thesis {
+  display: flex;
+  max-width: 77rem;
+  line-height: 2rem;
+  flex-wrap: wrap;
+  margin: 0rem;
+  margin: 0rem;
+  align-items: center;
+}
+
+.exhibit, video {
+  max-width: 48.2rem;
+  display: flex;
+  padding: 0 0rem 0 1.5rem;
+}
+
+.video {
+  width: auto;
+  margin: 0 1rem 0 0;
+  padding-top: 0rem;
+}
+
+.fisma {
+  display: flex;
+  max-width: 30.8rem;
+  flex-wrap: wrap;
+  padding: 0rem 0 4rem 0;
+}
+
+.design {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.design img {
+  width: 7.78rem;
+  margin: 1rem 0 1rem 1rem;
+}
+.design-content {
+  display: block;
+  margin-left: 0rem;
+  width: auto;
+  padding: 0 0 0rem 0rem;
+}
+
+.design-content h3 {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.design-content h6 {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.design.prototype {
+  background-color: lightgray;
+  width: 30.8;
+  display: flex;
+}
+
+#thesis {
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem
+}
+
+.urban {
+  width: 40.2rem;
+  margin: 1.5rem;
+}
+
+.urban h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.urban p {
+  padding-top: 2rem;
+}
+
+/**Footer Section **/
+
+footer {
+  display: flex;
+  border-top: solid 1px black;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 1rem;
+  font-size: .8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer h6 {
+  font-size: .8rem;
+}
+
+footer ul {
+  padding-left: 46rem;
+}
